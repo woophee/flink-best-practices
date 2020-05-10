@@ -19,6 +19,17 @@
         <scala.binary.version>2.11</scala.binary.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+                <version>${flink.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <!-- This profile helps to make things run out of the box in IntelliJ -->
     <!-- Its adds Flink's core classes to the runtime class path. -->
     <!-- Otherwise they are missing in IntelliJ, because the dependency is 'provided' -->

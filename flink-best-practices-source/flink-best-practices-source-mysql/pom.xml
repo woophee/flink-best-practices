@@ -11,5 +11,12 @@
 
     <artifactId>flink-best-practices-source-mysql</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.woophee</groupId>
+            <artifactId>flink-best-practices-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
