@@ -15,5 +15,12 @@
         <module>flink-best-practices-project-monitor</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.woophee</groupId>
+            <artifactId>flink-best-practices-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

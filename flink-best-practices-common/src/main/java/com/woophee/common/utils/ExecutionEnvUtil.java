@@ -1,7 +1,6 @@
 package com.woophee.common.utils;
 
 import com.woophee.common.constant.NormalConstant;
-import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
