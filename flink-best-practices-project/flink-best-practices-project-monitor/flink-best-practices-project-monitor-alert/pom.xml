@@ -11,6 +11,15 @@
 
     <artifactId>flink-best-practices-project-monitor-alert</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.googlecode.aviator</groupId>
+            <artifactId>aviator</artifactId>
+            <version>${aviator.version}</version>
+        </dependency>
+    </dependencies>
+
+
     <build>
         <plugins>
             <plugin>
